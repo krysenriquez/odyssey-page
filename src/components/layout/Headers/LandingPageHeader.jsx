@@ -27,7 +27,7 @@ function LandingPageHeader() {
     <>
       <div
         style={{
-          backgroundImage: `url(${toAbsoluteUrl('/public/media/img/1.jpg')})`,
+          backgroundImage: `url(${toAbsoluteUrl('/media/img/1.jpg')})`,
         }}
         className='page-header'
         data-parallax={true}
@@ -38,7 +38,7 @@ function LandingPageHeader() {
           <div className='motto text-center'>
             <img
               alt='logo'
-              src={toAbsoluteUrl('/public/media/logos/tci.png')}
+              src={toAbsoluteUrl('/media/logos/tci.png')}
               style={{
                 height: 400,
                 width: 400,
@@ -51,7 +51,7 @@ function LandingPageHeader() {
         <div
           className='moving-clouds'
           style={{
-            backgroundImage: `url(${toAbsoluteUrl('/public/media/img/clouds.png')})`,
+            backgroundImage: `url(${toAbsoluteUrl('/media/img/clouds.png')})`,
           }}
         />
       </div>

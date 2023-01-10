@@ -46,7 +46,7 @@ function ExamplesNavbar() {
           >
             <img
               alt='logo'
-              src={toAbsoluteUrl('/public/media/logos/tci.png')}
+              src={toAbsoluteUrl('/media/logos/tci.png')}
               style={{
                 height: 150,
                 width: 150,
